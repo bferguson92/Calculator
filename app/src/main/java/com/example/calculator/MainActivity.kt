@@ -25,16 +25,9 @@ class MainActivity : AppCompatActivity() {
             R.id.btnEight -> tvBox.append("8")
             R.id.btnNine -> tvBox.append("9")
             R.id.btnZero -> tvBox.append("0")
-            R.id.btnPlus -> tvBox.append("+")
-            R.id.btnMinus -> tvBox.append(" - ")
-            R.id.btnDivide -> tvBox.append(" / ")
-            R.id.btnMultiple -> tvBox.append(" * ")
             R.id.btnClear -> tvBox.text = ""
-            R.id.btnEqual -> computate()
         }
     }
 
-    fun computate(){
 
-    }
 }

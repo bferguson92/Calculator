@@ -16,4 +16,10 @@
     <string name="btn_divide">/</string>
     <string name="btn_multiple">*</string>
     <string name="btn_clear">C</string>
+    <string name="btn_dot">.</string>
+    <string name="left_perent">(</string>
+    <string name="right_perent">)</string>
+    <string name="btn_sin">sin</string>
+    <string name="btn_tan">tan</string>
+    <string name="cos">cos</string>
 </resources>

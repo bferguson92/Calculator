@@ -11,6 +11,8 @@ import java.lang.Exception
 class MainActivity : AppCompatActivity() {
     var isDot = false
     var isOp = true
+    var numPerent = 0
+    val error = "ERROR"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -75,7 +77,6 @@ class MainActivity : AppCompatActivity() {
             val answer = expression.evaluate()
             tvBox.text = answer.toString()
         } catch (ex: ArithmeticException) {
-            val error = "ERROR"
             tvBox.text = error
         }
     }
